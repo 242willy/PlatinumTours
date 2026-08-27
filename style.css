@@ -57,6 +57,14 @@ h2
     font-weight: 900;
     margin:0px;
 }
+h3
+{
+    color:black;
+    font-size:30px;
+    font-family:monospace;
+    font-weight: 900;
+    margin:15px;
+}
 a
 {
     text-decoration: none;
@@ -93,6 +101,12 @@ a
     font-weight: 900;
     margin:0px;
 }
+catalog h3
+{
+    color:black;
+    font: 40px;
+    font-family:monospace;
+}
 .catalog img
 {
     border-radius:15px;
@@ -100,7 +114,7 @@ a
 }
 .catalog p
 {
-    margin:5px;
+    margin:5px 45px 5px 45px;
     color:black;
     font-size:20px;
     font-family:'Courier New', monospace;
@@ -114,11 +128,17 @@ span
 {
     margin:5px;
 }
-span p
+span h3
 {
     color:black;
-    font-size:20px;
+    font-size:18px;
     font-family:'Courier New', monospace;
+    margin: 0px 15px 0px 15px;
+}
+span h3:hover
+{
+    color:orangered;
+    background:rgba(222, 245, 15, 0.308);
 }
 .obtn
 {
