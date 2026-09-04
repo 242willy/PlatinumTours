@@ -30,7 +30,12 @@
     color:yellow;
     background: rgb(255,255,255,0.12);
 }
-
+.menu i
+{
+    color:yellow;
+    font-size: 15px;
+    font-family: monospace;
+}
 .menu img
 {
     border-style:ridge;
@@ -88,7 +93,7 @@ a
 }
 .catalog
 {
-    background-color:yellow;
+    background-color:white;
     margin:15px 120px 15px 120px;
     border-style:hidden;
     border-radius:15px;
@@ -114,18 +119,22 @@ catalog h3
 }
 .catalog p
 {
-    margin:5px 45px 5px 45px;
+
+    margin:5px 125px 5px 125px;
+    padding:15px;
     color:black;
     font-size:20px;
-    font-family:'Courier New', monospace;
+    font-family:montserrat;
 }
 .catalog p:hover
 {
-    color:orangered;
-    background: rgba(222, 245, 15, 0.308);
+    color:yellow;
+    background:black;
+    border-radius:10px;
 }
 span
 {
+    color:black;
     margin:5px;
 }
 span h3
@@ -137,8 +146,10 @@ span h3
 }
 span h3:hover
 {
-    color:orangered;
-    background:rgba(222, 245, 15, 0.308);
+    padding:-20px;
+    color:white;
+    background:black;
+    border-radius:25px;
 }
 .obtn
 {
